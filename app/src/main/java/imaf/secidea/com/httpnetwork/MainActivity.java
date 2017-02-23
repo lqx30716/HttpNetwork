@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 //                .addFilePart("Content-Disposition: form-data; name=\"file4\"; filename=\"2016_09_08_04_08_30.png\"",new File(path5))
 //                .addFilePart(requestBodyTypes,files);
 //
-        String url = "http://192.168.199.159/fuck.php?a=124&c=456#ffff";
+        String url = "http://xxx.xxx.xxx.xxx/fuck.php?a=124&c=456#ffff";
         String params = url.substring(url.indexOf("?") + 1, url.length());
         Log.e(TAG, "onCreate: "+params );
         new ImafHttpClient()
