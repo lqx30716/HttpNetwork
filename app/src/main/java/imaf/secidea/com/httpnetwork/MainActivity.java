@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 //        new ImafHttpClient()
 //                .setMethod("GET")
 //                .setFileSaveDir(Environment.getExternalStorageDirectory().toString()+"/Download")
-//                .setUrl("http://192.168.199.165:81/test/com.hiapk.live_030511.apk")//http://192.168.199.223:81/test/com.hiapk.live_030511.apk,http://192.168.199.232/fuck.php
+//                .setUrl("http://xxx.xxx.xxx.xxx:81/test/com.hiapk.live_030511.apk")
 //                .execute(new StringCallBack() {
 //                    @Override
 //                    public void onSuccess(String result) {
